@@ -1,14 +1,3 @@
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
 local function run(msg, matches)
 	if #matches < 2 then
 		return "بعد از این دستور کلمه ای که میخوای طراحی کنمو بده😊"
@@ -163,14 +152,3 @@ return {
 		},
 	run = run
 }
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
