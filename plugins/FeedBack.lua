@@ -1,14 +1,3 @@
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
  function run(msg, matches)
  
  local fuse = 'New FeedBack Just We Received From User '..msg.from.username..' | '..msg.from.id..'\nUser#ID : ['..msg.from.id..']\nName : ' .. msg.from.print_name ..'\nUsername : @' .. msg.from.username .. '\n\nLocal Message:\n\n' .. matches[1] 
@@ -36,14 +25,4 @@
   },
   run = run
  }
- --[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
+ 
