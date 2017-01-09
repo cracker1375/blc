@@ -1,14 +1,3 @@
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
 local function addword(msg, name)
     local hash = 'chat:'..msg.to.id..':badword'
     redis:hset(hash, name, 'newword')
@@ -120,14 +109,3 @@ return {
   },
   run = run
 }
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
