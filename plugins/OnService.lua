@@ -1,14 +1,3 @@
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
 do
 -- Will leave the group if be added
 local function run(msg, matches)
@@ -33,14 +22,3 @@ return {
   run = run
 }
 end
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
